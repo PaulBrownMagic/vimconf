@@ -1,0 +1,24 @@
+color railscasts
+let g:NERDTreeWinPos = "right"
+
+" Latex-Suite
+filetype plugin on
+filetype indent on
+let g:tex_flavor='latex'
+
+func! LatexMode()
+   set iskeyword+=:
+   set wrap linebreak nolist
+   set showbreak=-
+
+   "Word Processer Mode
+   setlocal textwidth=80
+   setlocal smartindent
+   setlocal spell spelllang=en_gb
+   setlocal noexpandtab
+endfu
+
+com! LatexMode call LatexMode()
+nmap <C-l> :LatexMode
+autocmd BufNewFile,BufRead *.tex :LatexMode
+nmap <C-g> :GrammarousCheck

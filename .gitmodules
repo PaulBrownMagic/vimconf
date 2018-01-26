@@ -1,0 +1,15 @@
+[submodule "janus/vim-airline"]
+	path = janus/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "janus/vim-grammarous"]
+	path = janus/vim-grammarous
+	url = https://github.com/rhysd/vim-grammarous.git
+[submodule "janus/vim-latex"]
+	path = janus/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
+[submodule "vim-fugative"]
+	path = vim-fugative
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "janus/vim-fugative"]
+	path = janus/vim-fugative
+	url = https://github.com/tpope/vim-fugitive.git
