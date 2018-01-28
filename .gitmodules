@@ -10,3 +10,9 @@
 [submodule "janus/vim-fugative"]
 	path = janus/vim-fugative
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "janus/python-mode"]
+	path = janus/python-mode
+	url = https://github.com/python-mode/python-mode.git
+[submodule "janus/ScrollColors"]
+	path = janus/ScrollColors
+	url = https://github.com/vim-scripts/ScrollColors.git

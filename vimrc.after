@@ -1,4 +1,3 @@
-color railscasts
 let g:NERDTreeWinPos = "right"
 
 " Latex-Suite
