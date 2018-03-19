@@ -1,9 +1,9 @@
 let g:NERDTreeWinPos = "right"
-
 " Latex-Suite
 filetype plugin on
 filetype indent on
 let g:tex_flavor='latex'
+let g:Tex_CompileRule_dvi='latex -interaction=nonstopmode -file-line-error-style main.tex'
 
 func! LatexMode()
    set iskeyword+=:
