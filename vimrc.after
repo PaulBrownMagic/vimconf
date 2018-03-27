@@ -1,4 +1,9 @@
 let g:NERDTreeWinPos = "right"
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
 " Latex-Suite
 filetype plugin on
 filetype indent on
